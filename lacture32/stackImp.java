@@ -1,3 +1,4 @@
+package lacture32;
 import java.util.*;
 
 public class stackImp {
