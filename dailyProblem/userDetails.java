@@ -1,6 +1,6 @@
 package dailyProblem;
 import java.util.Scanner;
-
+// Accept the User's name, age and print in following manner 
 public class userDetails {
     public static void main(String[] args) {
         
