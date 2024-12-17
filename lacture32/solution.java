@@ -1,5 +1,5 @@
 package lacture32;
-import java.util.ArrayList;
+
 
 public class solution {
     static class  Node {
@@ -9,10 +9,8 @@ public class solution {
           this.data = data;
           this.next = null;
           
-        }
-          
+        }   
     }
-
     static class Stack{
         static Node head = null;
 
@@ -28,12 +26,7 @@ public class solution {
           }  
           newNode.next = head;
           head = newNode;
-
-
-
-
-        }
-          
+        }    
         public static int pop(){
             if (isEmpty()) {
                 return -1;
@@ -51,20 +44,13 @@ public class solution {
             }
             return head.data;
 
-
         }
-
-
-
-
-
     }
     public static void main(String[] args) {
         Stack s = new Stack();
         s.push(1);
         s.push(2);
         s.push(3);
-
 
         while (!s.isEmpty()) {
             System.out.println(s.peek());
