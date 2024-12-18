@@ -47,7 +47,7 @@ public class stacks {
     public static void main(String[] args) {
       Queue q = new Queue();
       q.add(1);
-      q.add(2);
+      q.add(2); 
       q.add(3);
 
 
