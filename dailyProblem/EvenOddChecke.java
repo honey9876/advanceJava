@@ -1,4 +1,5 @@
 package dailyProblem;
+//15- Accept an integer and check whether it is an even number or odd
 
 import java.util.Scanner;
 
