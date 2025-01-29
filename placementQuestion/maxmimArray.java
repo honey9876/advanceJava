@@ -1,5 +1,5 @@
 package placementQuestion;
-import java.util.*;
+// import java.util.*;
 
 public class maxmimArray {
     public static void main(String[] args) {
