@@ -1,4 +1,4 @@
-package StriggQuestion;
+package placementQuestion;
 
 public class ReverseString {
     public static String Reverse(String str){
