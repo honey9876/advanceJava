@@ -2,7 +2,7 @@ package DailyprovelempartTwo;
 
 public class RemoveLIst {
     public static ListNode removeNthfromate(ListNode head, int n){
-        ListNode dummy = new ListNode();
+        ListNode dummy = new ListNode(n);
         dummy.next = head;
         ListNode fast = dummy, slow = dummy;
 
